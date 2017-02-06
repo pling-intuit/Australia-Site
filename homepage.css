@@ -1,0 +1,416 @@
+<style type="text/css"> /* Homepage CSS */
+#main {
+ margin-top: 78px;
+}
+/* --- Promo Banner Component START --- */
+	.cpromobanner{
+		top: 78px; /* promo banner position fix */
+		background-color: #000000;
+	}
+/* --- Promo Banner Component END --- */	
+/* --- Count Down Timer Component START --- */
+    .countdown,
+    .countdown2 {
+        padding-top: 5px;
+
+    }
+    .countdown .timecolon,
+    .countdown2 .timecolon {
+        display: inline-block;
+        color: #000000 !important;
+        opacity: 0.7;
+    }
+	.banner-container-2 .discount-timer{
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+	.banner-container-2 .discount-amount,
+	.banner-container-2 .countdown .timecolon,
+    .banner-container-2 .countdown2 .timecolon {
+		color: #ffffff !important;
+	}
+
+    .countdown .counter-blocks,
+    .countdown2 .counter-blocks {
+        display: inline-block;
+    }
+
+    .countdown .counter-blocks p,
+    .countdown2 .counter-blocks p {
+        display: inline-block;
+        color: #000000 !important;
+    }
+    .banner-container-2 .countdown .counter-blocks p,
+    .banner-container-2 .countdown2 .counter-blocks p {
+        color: #ffffff !important;
+    }
+    .countdown .counter-blocks p:first-child,
+    .countdown2 .counter-blocks p:first-child {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .countdown .counter-blocks p:last-child,
+    .countdown2 .counter-blocks p:last-child {
+        opacity: 0.7;
+        font-size: 12px;
+    }
+	.no-discount {
+		display: none;
+	}
+/* --- Count Down Timer Component END --- */
+
+.cta-plain-green, .cta-plain-green:hover {
+	color: #2ca01c;
+}
+a.green-txt-link {
+  color: #2ca01c;
+  font-weight: bold;
+}
+a.green-txt-link:hover {
+  color: #53b700;
+  text-decoration:none;
+}
+.cta-plain-white, cta-plain-white:visited {
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+.cta-plain-white:active {
+	color: #BABEC5 !important;
+	text-decoration: none !important;
+}
+.cta-plain-white:hover, cta-plain-white:focus {
+	color: #BABEC5 !important;
+	text-decoration: none !important;
+}
+a.ctasecondary.cta-white-bg, a.ctasecondary.cta-white-bg:hover {
+	color: #000;
+	background: #fff;
+}
+.chero-layers, .chero-layers .bg-layer, .chero-layers .bg-layer .bg-img {
+	height: 500px;
+}
+.chero-layers .bg-layer .bg-img {
+	max-height: 500px;
+}
+.chero-layers .bg-layer .bg-img {
+ max-height: 470px;
+ bottom: 0;
+ position: absolute;
+ background-size: contain;
+}
+
+#section-2 .ctext {
+	min-height: auto;
+}
+.hero-cta-container {
+	padding-top: 50px;
+}
+.hero-two-cta-mobile {
+	text-align: center;
+}
+.ccontainer.hero-two-cta-mobile .ccontainer {
+	display: inline-block;
+}
+.ccontainer.hero-two-cta-mobile .ccontainer .ccta {
+	display: inline-block;
+	margin: 0 10px;
+}
+#section-1 .img-tnc-txt .ctext{
+	padding: 0; /* icon tnc txt align */
+}
+.icon-absolute-right, .icon-absolute-left {
+	position: absolute;
+	bottom: 0;
+}
+.icon-absolute-right {
+	right: 0;
+}
+.icon-absolute-left {
+	left: 0;
+}
+.dark-overlay {
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+}
+.testimonial-dark-overlay {
+	background: rgba(0,0,0,0.7);
+	padding: 80px 40px;
+	min-height: 500px;
+}
+/* Youtube Play icon START */	
+.video-inline-icon .cvideo {
+	display: inline-block;
+	width: auto;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+.video-inline-icon .cvideo .poster img {
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+.video-inline-icon .ccta {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin: 0;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding-left: 50px;
+}
+/* Youtube Play icon EMD */
+.vertical-middle {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.grid-horizontal-image-text.ifull-bleed {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+#section-1 .ss-image-text-v.icon-align{
+	padding-bottom: 50px; /* icon align */
+}
+}
+@media screen and (max-width: 920px){
+#section-5-mobile .bg{
+	position: aboslute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px; /* the actual mobile image width */
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+/* background image align START */
+.bg-img-align .bg > img.center {
+	margin-left: -250px !important;
+}
+/* background image align END */  
+
+/* --- Banner 2 Component START --- */
+.chero-layers .bg-layer .bg-sm-center{
+	margin-left: 35%;
+}
+/* --- Banner 2 Component END --- */
+.icon-tablet-size img{
+	width: 65px;
+}
+}
+@media screen and (min-width:768px) {
+.mobile-banner-txt{
+	display: none; /* Mobile Only Banner Txt */
+}	
+	
+#section-2 .ctext {
+/* min-height: 200px; */
+}
+.banner-vertical-middle {
+	top: 50% !important; /* desktop and tablet vertical and horizontal center */
+	-ms-transform: translateY(-50%) !important;
+	-webkit-transform: translateY(-50%) !important;
+	transform: translateY(-50%) !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	padding-top: 0!important;
+}
+/* --- Banner 2 Component START --- */
+.banner-container-2 .chero-layers .bg-layer .bg-img{
+	max-height: 500px;
+	 bottom: 0;
+	position: absolute;
+	background-size: contain;
+}
+.banner-container-2 .chero-layers .content-layer .resp_grid div[class^="span"],
+.banner-container-2 .chero-layers .overlay-layer,
+.banner-container-2 .chero-layers .overlay-layer .container-fluid .overlay-bg{
+	height: 500px;
+}
+
+.banner-container-2 .chero-layers .overlay-layer{
+	width: 1440px;
+}
+.banner-container-2 .chero-layers .overlay-layer .container-fluid .overlay-bg{
+	width: 50%;
+}
+/* Banner 2 CTA START */
+
+.banner-container-2 .chero-layers .content-layer .resp_grid div[class^="span"] .ccontainer.ccontainer-hero-content-2-cta .ccontainer{
+
+}
+/* Banner 2 CTA END */
+/* --- Banner 2 Component END --- */
+
+#cq-gen2875 > div {
+	top: 13px;
+}
+#section-5 .horizontal-image-text.image-text-1x1-horizontal .row .ctext {
+	padding: 150px 0 0 40px;
+}
+#section-5-mobile .dark-overlay {
+	display: table;
+}
+#section-5-mobile .div-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.max-width img {
+	max-width: 100%;
+}
+.ss-section > .content-container > .ccontainer.no-padding {
+	padding: 0;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {	
+	
+.desktop-banner-txt{
+	display: none; /* Desktop Only Banner Txt */
+}	
+.bg-mobile-visible .bg {
+	display: block !important;
+}
+.center-mobile, .center-mobile div.cta-align-left {
+	text-align: center;
+}
+.center-mobile .cimage .img-right {
+	float: none;
+}
+.hero-cta-container {
+	padding-top: 25px;
+}
+.icon-absolute-right, .icon-absolute-left {
+	position: relative;
+}
+#main {
+	margin-top: 77px;
+}
+
+
+/* --- Banner 2 Component START --- */
+.mobile-black{
+	color: #000000 !important;
+}
+
+.banner-container-2, 
+.banner-container-2 .chero-layers, 
+.banner-container-2 .chero-layers .bg-layer, 
+.banner-container-2 .chero-layers .bg-layer .bg-img,
+.banner-container-2 .chero-layers .overlay-layer,
+.banner-container-2 .chero-layers .overlay-layer .container-fluid .overlay-bg{
+	height: 550px;
+}
+.banner-container-2 .chero-layers .bg-layer .bg-img{
+	min-height: 550px;
+	 bottom: 0;
+	position: absolute;
+	background-size: contain;
+}
+
+.banner-container-2 .chero-layers .content-layer .resp_grid div[class^="span"] > .ccontainer .ctext{
+	top: 70px;
+	min-width: 100% !important;
+}
+.chero-layers .content-layer .resp_grid div[class^="span"] .ccontainer.ccontainer-hero-content-2-cta .ccontainer{
+	text-align: center;
+}
+
+.banner-container-2 .chero-layers .content-layer .resp_grid div[class^="span"] > .ccontainer .ccta{
+	position: relative;
+	top: 55px;
+	left: 0px;
+	transform: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+	margin: 5px;
+}
+.banner-container-2 .chero-layers .content-layer .resp_grid div[class^="span"] .ccontainer.ccontainer-hero-content-2-cta .ccontainer .ccta:last-child{
+	position: relative;
+	top: 55px;
+	margin: 5px;
+}
+.banner-container-2 .discount-timer{
+		padding-top: 20px;
+		padding-bottom: 0px;
+}
+/* --- Banner 2 Component END --- */
+/* --- Count Down Timer Component START --- */
+	.banner-container-2 .discount-amount,
+	.banner-container-2 .countdown .timecolon,
+	.banner-container-2 .countdown .counter-blocks p, 
+	.banner-container-2 .countdown2 .counter-blocks p{
+		color: #000000 !important;
+	}
+/* --- Count Down Timer Component END --- */
+#section-1 .img-tnc-txt .ctext{
+	top: -20px; /* icon tnc txt align */
+}
+#section-1 .img-tnc-txt .ctext p{
+	font-size: 80%;
+}
+	/* --- Customer Testimonial START --- */
+	.bg-mobile-visible .bg {
+		display: block !important;
+	}
+	.bg-img-align .bg > img.center{
+		margin-left:-100px !important; /* background image align */
+	}
+	.bg-mobile-visible .col-sm-6, .bg-mobile-visible .col-xs-12 {
+		min-height: 0px; /* testimonial dark overlay 1 pixel height fix in mobile and tablet */
+	}
+	/* --- Customer Testimonial END --- */	
+	/* --- Jeanette Video START --- */
+	.video-text-twobytwo,
+	.video-text-twobytwo .col-xs-12:first-child,
+	.video-text-twobytwo div.cvideo
+	{
+    padding-bottom: 0px !important;
+	}
+
+/* --- Jeanette Video END --- *.
+	
+	#section-5 .horizontal-image-text.image-text-1x1-horizontal .row .ctext {
+	padding: 200px 0 0 40px;
+}
+#section-5-mobile .dark-overlay {
+	display: table;
+}
+#section-5-mobile .div-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+/* --- Customer Testimonial START --- */
+	.bg-img-align .bg > img.center{
+		margin-left:-200px !important; /* background image align */
+	}
+	/* --- Customer Testimonial END --- */	
+}
+
+
+@media screen and (max-width:480px) {
+	/* --- Customer Testimonial START --- */
+	.bg-img-align .bg > img.center{
+		margin-left: -250px !important; /* background image align */
+	}
+	/* --- Customer Testimonial END --- */	
+	.image-text-pull .span6 > .cimage .cq-dd-image{
+		width: 100%;
+	}
+	
+}
+/* Homepage CSS */
+</style>
